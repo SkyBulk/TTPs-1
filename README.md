@@ -1,2 +1,2 @@
 # TTPs
-Tactics, Techniques and Procedures Research
+This repo contains my Tactics, Techniques and Procedures Research artefacts.
