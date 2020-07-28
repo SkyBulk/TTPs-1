@@ -1,0 +1,4 @@
+==============================
+T1218.003 - CMSTP
+==============================
+cmstp.exe /ni /s c:\hunting\hunts\cmstp\CorpVPN.inf
