@@ -1,0 +1,6 @@
+[Profile Format]
+Version=5
+
+[Connection Manager]
+CMSFile=CorpVPN\CorpVPN.cms
+ConnectionType=1

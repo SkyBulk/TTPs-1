@@ -1,0 +1,115 @@
+[Profile Format]
+Version=5
+
+[ISP]
+PBFile=CorpVPN\CorpBook.pbk
+RegionFile=CorpVPN\CorpBook.pbr
+PBURL=http://msitpros.com/pbserver/pbserver.dll
+Mask&SignOn=0x0001
+Match&SignOn=0x0000
+Mask&SignUp=0x0002
+Match&SignUp=0x0002
+Mask&Modem=0x0004
+Match&Modem=0x0000
+Mask&ISDN=0x0008
+Match&ISDN=0x0000
+Mask&Custom1=0x0010
+Match&Custom1=0x0010
+Mask&Custom2=0x0080
+Match&Custom2=0x0080
+Mask&MultiCast=0x0020
+Match&MultiCast=0x0000
+Mask&Surcharge=0x0040
+Match&Surcharge=0x0040
+Mask&MultiCastModem=0x0024
+Match&MultiCastModem=0x0000
+Mask&MultiCastISDN=0x0028
+Match&MultiCastISDN=0x0000
+Mask&NosurchargeSignon=0x0041
+Match&NosurchargeSignon=0x0000
+Mask&SurchargeSignon=0x0041
+Match&SurchargeSignon=0x0040
+FilterA&=NosurchargeSignon
+FilterB&=SurchargeSignon
+
+[Service Types]
+Modem=Modem
+ISDN=ISDN
+Modem MultiCast=MultiCastModem
+ISDN MultiCast=MultiCastISDN
+
+[Connection Manager]
+RedialCount=3
+RedialDelay=5
+Version=0
+DownloadDelay=15
+ServiceName=CorpVPN
+ServiceMessage=
+PBMessage=
+DUN=CorpVPN
+UserNamePrefix=
+UserNameSuffix=
+PasswordHandling=0
+Logo=
+Icon=
+SmallIcon=
+TrayIcon=
+PBLogo=
+Dialup=1
+Direct=1
+ConnectionType=0
+Tunnel=0
+TunnelReferences=0
+HelpFile=
+SecureRoutingCompartment=0
+
+[Animated Logo]
+
+[Animation Actions]
+
+[Pre-Init Actions]
+
+[Pre-Connect Actions]
+
+[Pre-Dial Actions]
+
+[Pre-Tunnel Actions]
+
+[Connect Actions]
+0=cmdl32.exe %PROFILE%
+0&Flags=16
+
+[Auto Applications]
+
+[Disconnect Actions]
+
+[On-Cancel Actions]
+
+[On-Error Actions]
+
+[Menu Options]
+
+[Server&CorpVPN]
+SW_Compress=1
+Disable_LCP=0
+Negotiate_TCP/IP=1
+Negotiate_TCP/IPv6=1
+SecureLocalFiles=0
+EnforceCustomSecurity=0
+Custom_Security=1
+Require_PAP=0
+Require_SPAP=0
+Require_CHAP=1
+Require_MSCHAP=0
+Require_MSCHAP2=1
+Require_W95MSCHAP=0
+EncryptionType=3
+PW_Encrypt=1
+PW_EncryptMS=0
+DataEncrypt=0
+[TCP/IP&CorpVPN]
+IP_Header_Compress=1
+Gateway_On_Remote=1
+IPv6_Gateway_On_Remote=1
+Specify_Server_Address=0
+IPv6_Specify_Server_Address=0
