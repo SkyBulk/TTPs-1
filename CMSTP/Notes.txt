@@ -2,5 +2,10 @@
 T1218.003 - CMSTP
 ==============================
 # InjectAllTheThingsx64.dll compiled to run calc.exe
-# Put payload DLL on a remote server (e.g. WebDAV) and run the command
+# Put payload DLL on a remote server (e.g. WebDAV) and run one of the following commands:
 cmstp.exe /ni /s c:\hunting\hunts\cmstp\CorpVPN.inf
+cmstp.exe /ns /s c:\hunting\hunts\cmstp\CorpVPN.inf
+cmstp.exe /s c:\hunting\hunts\cmstp\CorpVPN.inf
+
+# CMSTP can also be abused to run malicious code form external sources, like .SCT scripts:
+cmstp.exe /s cmstp_external.inf
