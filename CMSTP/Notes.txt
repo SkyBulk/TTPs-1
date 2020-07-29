@@ -9,3 +9,10 @@ cmstp.exe /s c:\hunting\hunts\cmstp\CorpVPN.inf
 
 # CMSTP can also be abused to run malicious code form external sources, like .SCT scripts:
 cmstp.exe /s cmstp_external.inf
+
+===============================
+ Detection
+===============================
+Monitor for executable image loading by CMSTP.exe with specific command-line parameters.
+Monitor for CMSTP.exe process creation with specific parameters.
+Monitor for CMSTP.exe external network connections.
